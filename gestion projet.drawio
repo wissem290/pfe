@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="150" width="30" height="120" as="geometry" />
+          <mxGeometry x="30" y="110" width="30" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-1" target="cSOPL2-6Om5nhGSBSMl0-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -14,10 +14,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-3" value="Créer un projet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="144" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-4" value="Affecter un projet au chef" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="210" width="120" height="80" as="geometry" />
+          <mxGeometry x="150" y="210" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-1" target="cSOPL2-6Om5nhGSBSMl0-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-6" value="Chef" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="340" width="30" height="100" as="geometry" />
+          <mxGeometry x="50" y="340" width="30" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cSOPL2-6Om5nhGSBSMl0-8" source="cSOPL2-6Om5nhGSBSMl0-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -35,10 +35,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-8" value="Diviser le projet en tâches" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-9" value="Affecter des tâches aux employés" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="380" width="120" height="80" as="geometry" />
+          <mxGeometry x="190" y="395" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cSOPL2-6Om5nhGSBSMl0-9" source="cSOPL2-6Om5nhGSBSMl0-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,16 +47,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-17" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="180" width="30" height="90" as="geometry" />
+          <mxGeometry x="740" y="180" width="30" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="cSOPL2-6Om5nhGSBSMl0-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-17">
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-17" target="cSOPL2-6Om5nhGSBSMl0-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="570" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cSOPL2-6Om5nhGSBSMl0-20" value="Mettre à jour l&#39;état des tâches" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="120" height="80" as="geometry" />
+          <mxGeometry x="590" y="244" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-33" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-20" target="cSOPL2-6Om5nhGSBSMl0-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="300" as="sourcePoint" />
+            <mxPoint x="570" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-34" value="Terminée" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="347" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-35" value="Non réalisée" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="261" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-36" value="En cours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="174" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-37" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-20" target="cSOPL2-6Om5nhGSBSMl0-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="120" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSOPL2-6Om5nhGSBSMl0-38" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cSOPL2-6Om5nhGSBSMl0-20" target="cSOPL2-6Om5nhGSBSMl0-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="324.5" as="sourcePoint" />
+            <mxPoint x="570" y="324.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
